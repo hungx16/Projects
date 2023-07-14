@@ -1,0 +1,414 @@
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vntourism: <http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#> .
+
+vntourism:Phú_Quốc  a             vntourism:HeritageSite ;
+        rdfs:label                "Phú Quốc@en" ;
+        vntourism:hasAdministrativeDivision
+                "Duong Dong Airport, Phu Quoc" ;
+        vntourism:hasDescription  "Phú Quốc (Vietnamese: [fǔ kǔə̯k]) is the largest island in Vietnam. Phú Quốc and nearby islands, along with the distant Thổ Chu Islands, are part of Kiên Giang Province as Phú Quốc City, the island has a total area of 574 km2 (222 sq mi) and a permanent population of approximately 179,480 people. Located in the Gulf of Thailand, the island city of Phú Quốc includes the island proper and 21 smaller islets. Dương Đông ward is located on the west coast, and is also the administrative and largest town on the island. The other ward is An Thới on the southern tip of the island.@en" .
+
+vntourism:Tuyền_Lâm_Lake
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Tuyền Lâm Lake@en" ;
+        vntourism:hasAdministrativeDivision
+                "Lâm_Đồng_province" , "Vietnam" ;
+        vntourism:hasDescription  "Tuyền Lâm Lake (hồ Tuyền Lâm) is a man-made lake in Đà Lạt city, in Lâm Đồng Province, Vietnam. It is one of 21 National Tourism Areas. Trúc Lâm Temple can be reached by cable car.@en" .
+
+vntourism:Tuần_Châu  a            vntourism:HeritageSite ;
+        rdfs:label                "Tuần Châu@en" ;
+        vntourism:hasAdministrativeDivision
+                "Hạ_Long_Bay" ;
+        vntourism:hasDescription  "Tuần Châu is a schist island on the southwest side of Hạ Long City in Vietnam.@en" .
+
+vntourism:Pù_Mát_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Pù Mát National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "Bắc Trung Bộ" ;
+        vntourism:hasDescription  "Pù Mát National Park (Vietnamese: Vườn quốc gia Pù Mát) is a national park in Nghệ An Province, in Vietnam's North Central Coast region. It is part of the Western Nghệ An Biosphere Reserve. In the Thai language, Pù Mát means \\\"high slope\\\". This park was established by Decision 174/2001/QĐ-TTg, dated November 8, 2001, by the Prime Minister of Vietnam on upgrading Pù Mát Preservation Zone.@en" .
+
+vntourism:Sand_Cay  a             vntourism:HeritageSite ;
+        rdfs:label                "Sand Cay@en" ;
+        vntourism:hasAdministrativeDivision
+                "South_China_Sea" ;
+        vntourism:hasDescription  "Sand Cay 10°22′30″N 114°28′48″E﻿ / ﻿10.37500°N 114.48000°E, also known as Bailan Island (Tagalog: Pulo ng Bailan); Son Ca Island (Vietnamese: Đảo Sơn Ca); Mandarin Chinese: 敦謙沙洲/敦谦沙洲; pinyin: Dūnqiān Shāzhōu, is a cay on the north edge of the Tizard Bank of the Spratly Islands in the South China Sea. With an area of 7 hectares (17 acres), it is the ninth largest, and the fourth largest former Vietnamese-administered, of the Spratly Islands. The island has been occupied by Vietnam since 1974, (first by South Vietnam, then by the Socialist Republic of Vietnam after 1975). It is also claimed by China (PRC), the Philippines, Vietnam, and Taiwan (ROC).@en" .
+
+vntourism:Tràm_Chim_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Tràm Chim National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "_Đồng_Tháp_province" , "Đồng_Tháp_province" , "Vietnam" ;
+        vntourism:hasDescription  "Tràm Chim National Park (Vietnamese: Vườn quốc gia Tràm Chim) is a national park in the Plain of Reeds in the Mekong Delta region of Vietnam. The park was created to restore a degraded wetland, in order to protect several rare birds, especially the sarus crane (Grus antigone sharpii)--a species listed on the IUCN Red List. It is also a designated wetland of international importance under the Ramsar Convention.@en" .
+
+vntourism:Thổ_Chu_Islands
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Thổ Chu Islands@en" ;
+        vntourism:hasAdministrativeDivision
+                "Gulf_of_Thailand" ;
+        vntourism:hasDescription  "Thổ Chu Islands (Vietnamese: quần đảo Thổ Chu) is an archipelago in the Gulf of Thailand. It constitutes Tho Chau Commune of Phú Quốc District, Kiên Giang Province, Vietnam.@en" .
+
+vntourism:Spratly_Island
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Spratly Island@en" ;
+        vntourism:hasAdministrativeDivision
+                "South_China_Sea" , "Spratly Island" ;
+        vntourism:hasDescription  "Spratly Island, also known as Storm Island (Vietnamese: Đảo Trường Sa Lớn; simplified Chinese: 南威岛; traditional Chinese: 南威島; pinyin: Nánwēi Dǎo; Tagalog: Pulo ng Lagos, lit. 'Lagos Island'), is the fourth largest of the naturally occurring Spratly Islands in the South China Sea with an area of 15 hectares (37 acres), and the largest of the Vietnamese-administered Spratly islands. It is also claimed by China (PRC) and Taiwan (ROC).@en" .
+
+vntourism:Côn_Đảo_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Côn Đảo National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "South Vietnam" ;
+        vntourism:hasDescription  "Côn Đảo National Park (Vietnamese: Vườn quốc gia Côn Đảo) is a natural reserve area on Côn Đảo Island, in Bà Rịa–Vũng Tàu province in coastal southeastern Vietnam. The park includes a part of the island and the surrounding sea. The national park is characterized by a diverse ecosystem. Many species of corals as well as sea turtles, dolphins, and endangered dugongs are found here. In 2006, a delegation of UNESCO Vietnam representatives surveyed the area and concluded that the park is eligible to be a natural-cultural mixture World Heritage. The Vietnamese government is preparing necessary documents to submit to UNESCO soon. A controversial paved road project had been proposed by the local government but was finally rejected by the national government following protests from environmental ac@en" .
+
+vntourism:Phú_Ninh_Lake
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Phú Ninh Lake@en" ;
+        vntourism:hasAdministrativeDivision
+                "Phú Ninh District, Quảng Nam" ;
+        vntourism:hasDescription  "Lake Phú Ninh is an artificial lake in Phú Ninh District, Quảng Nam Province, Vietnam.@en" .
+
+vntourism:U_Minh_Hạ_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "U Minh Hạ National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "southern Vietnam" ;
+        vntourism:hasDescription  "U Minh Hạ National Park (Vietnamese: Vườn quốc gia U Minh Hạ) or National Park of Lower U Minh is a national park of Vietnam. The park is located in Cà Mau Province (communes Khánh Lâm, Khanh An of U Minh District and communes of Trần Hợi, Khánh Bình Tây Bắc of Trần Văn Thời District). The park has an area of 82.86 square kilometers and was established on 20 January 2006 to protect low wetland ecosystem in the region. Fauna and flora found here include mangrove, snake, turtle, bird, amphibian.@en" .
+
+vntourism:Hoàng_Liên_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Hoàng Liên National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "Northern_Vietnam" ;
+        vntourism:hasDescription  "Hoang Lien National Park (Vietnamese language: Vườn quốc gia Hoàng Liên ) is a national park within , in the districts of Sa Pa and Than Uyên of Lào Cai Province, and part of Phong Thổ District in Lai Châu Province. The national park was established according to the Decision number 90/2002/QĐ-TTg dated 12 July 2006 by the government of Vietnam. This decision turned the Nature Reserve into National Park.@en" .
+
+vntourism:Núi_Chúa_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Núi Chúa National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "South Central Coast, Vietnam" ;
+        vntourism:hasDescription  "Núi Chúa National Park (Vietnamese: Vườn quốc gia Núi Chúa), formerly Núi Chúa Nature Reserve is a national park in the province of Ninh Thuận Province, on the border with Khánh Hòa Province, South Central Coast, Vietnam.@en" .
+
+vntourism:Xuân_Thủy_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Xuân Thủy National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "northern Vietnam" ;
+        vntourism:hasDescription  "Xuân Thủy National Park (Vietnamese: Vườn quốc gia Xuân Thủy ) is a national park in Hong River Biosphere Reserve in Nam Định Province, Vietnam.The national park was established according to the Decision number 01/2003/QĐ-TTg dated 2 January 2003 signed by premier Nguyễn Tấn Dũng, this decision turned Xuân Thủy Wetland Nature Reserve into Xuân Thủy National Park. The park was the first wetland area to be announced a Ramsar site in south-east Asia and is internationally significant as a migratory bird habitat.@en" .
+
+vntourism:Bạch_Mã_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Bạch Mã National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "Central Vietnam" ;
+        vntourism:hasDescription  "Bạch Mã National Park (Vietnamese: Vườn quốc gia Bạch Mã) is a protected area in central Vietnam, near the city of Huế. It covers 220 km2 and comprises three zones: a strictly protected core area, an administrative area and a buffer zone. In 2004, the park was being considered for expansion in order to create a corridor from the border with Laos to the sea. The park can be accessed by foot, moped or with a park guide's car.@en" .
+
+vntourism:Cát_Tiên_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Cát Tiên National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "Vietnam" ;
+        vntourism:hasDescription  "Cát Tiên National Park (Vietnamese: Vườn quốc gia Cát Tiên) is a national park located in the south of Vietnam, approximately 150 km north of Ho Chi Minh City. It has an area of about 720 km2 and protects one of the largest areas of lowland tropical forests left in Vietnam.@en" .
+
+vntourism:Yok_Đôn_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Yok Đôn National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "Đắk_Lắk_province" , "Vietnam" ;
+        vntourism:hasDescription  "Yok Don National Park (Vietnamese: Vườn quốc gia Yok Đôn) is a national park located in Krông Na commune, Buôn Đôn District, Đắk Lắk Province, Tây Nguyên of Vietnam, 40 km west of Buôn Ma Thuột city. The park was established in 1991 to protect 582 km² of a biological area of khộp lowland forest. The total area is 1,155.45 km² (not including a buffer zone of 1,138.9 km2). It borders Mondulkiri Protected Forest (Cambodia) to the west and is part of maybe the largest protected area complex in southeast Asia@en" .
+
+vntourism:Bidoup_Núi_Bà_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Bidoup Núi Bà National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "Tây Nguyên, Việt Nam" ;
+        vntourism:hasDescription  "Bidoup Nui Ba National Park (Vietnamese language: Vườn quốc gia Bidoup Núi Bà ) is a national park in districts of Đam Rông and Lạc Dương, in the province of Lâm Đồng, Vietnam. The Bidoup Nui Ba national Park was established in 2004 and is named after the two highest peaks of the Langbiang plateau: Bidoup (2,287m) and Nui Ba (2,167m). With a total area of 70,038 ha, the park ranks as one of five largest national parks in Vietnam.@en" .
+
+vntourism:Ba_Bể_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Ba Bể National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "Bắc_Kạn_province" , "Vietnam" ;
+        vntourism:hasDescription  "Ba Bể National Park (Vietnamese: Vườn Quốc Gia Ba Bể) is a reserve in Bắc Kạn Province, Northeast region of Vietnam, set up to protect a very murky lake (Ba Bể Lake) along with surrounding limestone and highland nevergreen forests. It is located about 240 kilometers northwest of the capital city Hanoi.@en" .
+
+vntourism:Trị_An_Dam  a           vntourism:HeritageSite ;
+        rdfs:label                "Trị An Dam@en" ;
+        vntourism:hasAdministrativeDivision
+                "Trị An village, Vĩnh Cửu Đồng Nai Province" ;
+        vntourism:hasDescription  "Trị An is a hydroelectric dam and lake on the Đồng Nai River in Vĩnh Cửu, Đồng Nai, Vietnam. The power plant has an installed electric capacity of 400 MW and producing around 1.76 TWh of electricity per year. The plant is operated by Trị An Hydropower Company, a subsidiary of Vietnam Electricity. The dam was built in 1984–1986 with the assistance of the Soviet Union. The power plant became operational in 1988. The dam forms a man-made reservoir lake known as Trị An Lake. La Ngà village on the La Ngà River was created as a result of population displacement.@en" .
+
+vntourism:Lò_Gò-Xa_Mát_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Lò Gò-Xa Mát National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "Tây_Ninh_province" , "Tân_Biên_district" , "Vietnam" ;
+        vntourism:hasDescription  "Lò Gò-Xa Mát National Park (Vietnamese: Vườn quốc gia Lò Gò-Xa Mát) is a national park in the Southeast region of Vietnam, approximately 30 kilometres (19 mi) from the city of Tây Ninh. It was established by upgrading the status of the former Lò Gò-Xa Mát Nature Reserve. After receiving national park status in 2002, the park was expanded in 2020 to cover an area of 30,022 hectares (115.92 sq mi).@en" .
+
+vntourism:Búng_Bình_Thiên
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Búng Bình Thiên@en" ;
+        vntourism:hasAdministrativeDivision
+                "Vietnam" , "An_Giang_province" , "An_Phú_district" ;
+        vntourism:hasDescription  "Búng Bình Thiên, or God lake, is a fresh water lake in the Mekong Delta in Vietnam. Located in An Giang province within An Phu District, Búng Bình Thiên links three communes, namely Khánh Bình, Nhơn Hội and Quốc Thái, as well as the adjoining Bình Di River and Hậu River. The natural lake is becoming known as an eco-tourist area.@en" .
+
+vntourism:Bàu_Tró  a              vntourism:HeritageSite ;
+        rdfs:label                "Bàu Tró@en" ;
+        vntourism:hasAdministrativeDivision
+                "Quảng_Bình_province" , "Đồng_Hới" ;
+        vntourism:hasDescription  "Bàu Tró (Bàu in Vietnamese dialect means pond) is a lake in Đồng Hới city, Quảng Bình Province, Vietnam. This lake is an important fresh water supply for more than 130,000 inhabitants of Đồng Hới. Bàu Tró is better known for archaeological findings by French archaeologists during French Indochina periods. The artefacts found here dated back as far as 5,000 years ago, displaying important proof of human settlements in this area. \n* v \n* t \n* e@en" .
+
+vntourism:Hang_Sơn_Đoòng
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Hang Sơn Đoòng@en" ;
+        vntourism:hasAdministrativeDivision
+                "Vietnam" , "Quảng_Bình_province" ;
+        vntourism:hasDescription  "Sơn Đoòng cave (Vietnamese: hang Sơn Đoòng, IPA: [haːŋ˧ ʂəːn˧ ɗɔ̤ŋ˨˩]), in Phong Nha-Kẻ Bàng National Park, Bố Trạch District, Quảng Bình Province, Vietnam, is one of the world's largest natural caves. Located near the Laos–Vietnam border, Hang Sơn Đoòng has an internal, fast-flowing subterranean river and the largest cross-section of any cave, worldwide, as of 2009, believed to be twice that of the next largest passage. It is the largest known cave passage in the world by volume. As a solutional cave, it was formed in soluble limestone and is believed to be between 2 and 5 million years old.@en" .
+
+vntourism:Bến_En_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Bến En National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "Bac Trung Bo" ;
+        vntourism:hasDescription  "Ben En National Park (Vietnamese: Vườn quốc gia Bến En) is a national park in Thanh Hóa Province, Vietnam. The national park was founded by the decision 33 dated 27 January 1992 of the Chairman of the Council of Ministers of Vietnam.@en" .
+
+vntourism:Thiên_Đường_Cave
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Thiên Đường Cave@en" ;
+        vntourism:hasAdministrativeDivision
+                "Vietnam" ;
+        vntourism:hasDescription  "Thiên Đường Cave (Paradise Cave) is a cave in Phong Nha-Kẻ Bàng National Park, UNESCO's World Heritage Site, 60 km northwest of Đồng Hới city.Thiên Đường Cave is located on an elevation of 200 meters above the sea level, near the west branch of Ho Chi Minh Highway, in Son Trach Commune, Bố Trạch District, Quảng Bình Province, Vietnam. The cave was discovered by a local man in 2005 and the first 5 km of this cave was explored by explorers from British Cave Research Association in 2005, the whole 31 km was explored and publicly announced by the British cave explorers. This cave is 31 km long, longer than Phong Nha Cave which had been considered the longest cave in this national park. The height can reach to 72 m and 150 m wide. The limestone formation is also more spectacular than that of Ph@en" .
+
+vntourism:Sơn_La_Dam  a           vntourism:HeritageSite ;
+        rdfs:label                "Sơn La Dam@en" ;
+        vntourism:hasAdministrativeDivision
+                "Ít Ong, Mường La District, Sơn La Province" ;
+        vntourism:hasDescription  "Sơn La Dam is a concrete gravity dam on the Black River in Ít Ong, Mường La District, Sơn La Province, Vietnam. It is the largest hydroelectric power station in Southeast Asia.@en" .
+
+vntourism:Cấm_Sơn_Lake
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Cấm Sơn Lake@en" ;
+        vntourism:hasAdministrativeDivision
+                "Bắc_Giang_province" , "Lục_Ngạn_district" , "Vietnam" ;
+        vntourism:hasDescription  "Cấm Sơn Lake (Vietnamese: Hồ Cấm Sơn) is a lake in Lục Ngạn District, Bắc Giang Province, Vietnam, near the border with Lạng Sơn Province. The lake lies off Highway 279, northeast of the city of Bắc Giang. The lake has an area of some 2,600 hectares (6,400 acres), but during the rainy season when flooding is common, the lake can expand to some 3,000 hectares (7,400 acres). The length of the lake is about 30 kilometres (19 mi). Its widest point is about 7 kilometres (4.3 mi) and narrowest point is about 200 metres (660 ft). \n* v \n* t \n* e@en" .
+
+vntourism:Phước_Bình_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Phước Bình National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "Ninh_Thuận_province" , "Vietnam" ;
+        vntourism:hasDescription  "Phước Bình National Park (Vietnamese: Vườn quốc gia Phước Bình) is a national park in the commune of , Bác Ái District, Ninh Thuận Province. It is located 62 km north-west from Phan Rang town, the capital of Ninh Thuận Province, on the border with Lâm Đồng and Khánh Hòa provinces. Phước Bình National Park was classified as a nature reserve by Decision 125/2002/QD dated 26 September 2002. On 8 June 2006 it was established as a national park under Decision number 822/QĐ-TTg dated 8 June 2006 by then Vice Prime Minister of Vietnam Nguyễn Tấn Dũng.@en" .
+
+vntourism:Tam_Đảo_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Tam Đảo National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "Tam Đảo" , "North Vietnam" ;
+        vntourism:hasDescription  "Tam Dao National Park (Vietnamese: Vườn quốc gia Tam Đảo) is a protected area zone in northern Vietnam. It was established in 1996, succeeding from the Conservation Forest Tam Dao which was formed in 1977. The park is about 85 km northwest of Hanoi.@en" .
+
+vntourism:Chư_Mom_Ray_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Chư Mom Ray National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "Central Highlands (Vietnam), Việt Nam" ;
+        vntourism:hasDescription  "Chư Mom Ray National Park (Vietnamese: Vườn quốc gia Chư Mom Ray ) is a national park of Vietnam in the province of Kon Tum, Central Highlands region. The national park was established according to the Decision number 103/2002/QĐ-TTg dated 30 July 2002 signed by the government of Vietnam. This decision turned the Nature Reserve into National Park. \n* v \n* t \n* e@en" .
+
+vntourism:Namyit_Island
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Namyit Island@en" ;
+        vntourism:hasAdministrativeDivision
+                "South_China_Sea" ;
+        vntourism:hasDescription  "Namyit Island, also known as Vietnamese: Đảo Nam Yết; Binago Island (Tagalog: Pulo ng Binago); Mandarin Chinese: 鴻庥島/鸿庥岛; pinyin: Hóngxiū Dǎo, is the third-largest island on Tizard Bank in the northwest of the Spratly Islands in South China Sea. With an area of 5.3 hectares (13 acres), it is the twelfth-largest naturally-occurring Spratly island, and the fifth-largest among the Vietnamese-administered islands. The island is also claimed by China (PRC), the Philippines, and Taiwan (ROC).@en" .
+
+vntourism:Xuân_Sơn_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Xuân Sơn National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "Tân Sơn District, Phú Thọ Province," ;
+        vntourism:hasDescription  "Xuân Sơn National Park (Vietnamese: Vườn quốc gia Xuân Sơn) is a national park of Tân Sơn District, Phú Thọ Province, Vietnam. It was established on August 9, 1986 as a nature reserve, and it covers an area of 150.48 square kilometres. The park lies at the extreme south-eastern extent of the , 45 kilometres south-west of the confluence of the Red River and Black Rivers.@en" .
+
+vntourism:Thác_Bà_Lake
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Thác Bà Lake@en" ;
+        vntourism:hasAdministrativeDivision
+                "Vietnam" ;
+        vntourism:hasDescription  "The Thác Bà Lake (Vietnamese: Hồ Thác Bà) is a manmade lake in Yên Bái Province, Vietnam created by construction of the in the 1960s. Thác Bà is the name of the which pre-existed the dam (cf. Vietnamese: thác nước, waterfall).@en" .
+
+vntourism:Ba_Vì_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Ba Vì National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "North Vietnam" ;
+        vntourism:hasDescription  "Ba Vì National Park (Vietnamese: Vườn quốc gia Ba Vì) is a national park located 48 km (30 mi) west of Hanoi, Vietnam. The park is 10,815 ha (26,720 acres) in area, and is located in the Ba Vì mountain range. The park has rich and diverse tropical and subtropical species of flora and fauna. Ba Vì National Park is located in Ba Vì District of Hanoi and two districts of Hòa Bình Province, namely Lương Sơn and Kỳ Sơn. The Park is situated on a mountain range running north-east and south-west with its peak at Vua Peak of 1,296 m and Tan Vien Peak of 1,226 m and Ngoc Hoa Peak of 1,120 m.@en" .
+
+vntourism:Con_Moong_Cave
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Con Moong Cave@en" ;
+        vntourism:hasAdministrativeDivision
+                "Thành Yên commune, Thạch Thành District, Thanh Hóa Province" ;
+        vntourism:hasDescription  "The Con Moong cave (Vietnamese: Hang Con Moong, \\\"beast\\\" cave) is located in the Cúc Phương National Park, just south of Mọ village, in the Thanh Hóa Province, northern Vietnam. The Department of Culture has issued a certificate that declares Con Moong prehistoric site and its surroundings as National Relics and is managed by the Cúc Phương National Park administration, along with a refuge for rare animals. Among these locations, the archaeological site of Con Moong cave is of central importance for the study of the Mesolithic Hoabinhian culture. In April and May 1976, Vietnamese archaeologists excavated the site.@en" .
+
+vntourism:  a                     vntourism:HeritageSite ;
+        rdfs:label                "West Lake (Hanoi)@en" ;
+        vntourism:hasAdministrativeDivision
+                "Hanoi" ;
+        vntourism:hasDescription  "West Lake (Vietnamese: Hồ Tây) is the biggest freshwater lake of Hanoi, Vietnam, located northwest of the city center. With a shore length of 17 km (about 10.6 miles) and 500 hectare (about 5 km2) in area, this is the largest lake of the capital and a popular place for recreation with many surrounding gardens, hotels and villas. A small part of West Lake is divided by to form Trúc Bạch Lake. Most of the lake is located within Tây Hồ District, named after the lake.@en" .
+
+vntourism:Ayun_Hạ_Lake
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Ayun Hạ Lake@en" ;
+        vntourism:hasAdministrativeDivision
+                "Gia_Lai_province" , "Vietnam" ;
+        vntourism:hasDescription  "Ayun Ha Lake (Vietnamese: Hồ Ayun Hạ) is an artificial lake in Gia Lai Province, Vietnam. The lake was formed when the Ayun River was stopped early in 1994, to start the construction of a dam and lake for irrigation. The flooded area of the lake district belongs to the commune of HBong Chu Se. The lake has a surface area of 37 km2 (14 sq mi), and has a length of 25 km (16 mi), and is 5 km (3.1 mi) at its widest.@en" .
+
+vntourism:Phú_Quốc_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Phú Quốc National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "Mekong Delta" ;
+        vntourism:hasDescription  "Phú Quốc National Park (Vietnamese: Vườn quốc gia Phú Quốc) is a national park on Phú Quốc Island, in the Kiên Giang Province of Vietnam's Mekong Delta Region. This park includes land and sea area, protecting oceanic species such as dugong.This park was established by the Decision 91/2001/QĐ-TTg dated 8 June 2001 signed by the Prime Minister of Vietnam on upgrading Northern Phú Quốc Islands Preservation Zone to Phu Quoc National Park.@en" .
+
+vntourism:Hà_Tiên_Islands
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Hà Tiên Islands@en" ;
+        vntourism:hasAdministrativeDivision
+                "Gulf_of_Thailand" ;
+        vntourism:hasDescription  "Hà Tiên Islands (Vietnamese: Quần đảo Hà Tiên) is an archipelago located in the Gulf of Thailand. It constitutes Tien Hai Commune of Hà Tiên, Kiên Giang Province, Vietnam. Since pirates used to plague the region in the past, another popular name for the islands is Hải Tặc Islands (Quần đảo Hải Tặc, literally \\\"Pirate Islands\\\").@en" .
+
+vntourism:Phong_Nha_Cave
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Phong Nha Cave@en" ;
+        vntourism:hasAdministrativeDivision
+                "Vietnam" ;
+        vntourism:hasDescription  "Phong Nha Cave is a cave in Phong Nha-Kẻ Bàng National Park, a UNESCO World Heritage Site in Quảng Bình Province, Vietnam. It is 7,729 metres long and contains 14 grottoes, as well as a 13,969 metre underground river. While scientists have surveyed 44.5 kilometres of passages, tourists are only allowed to explore the first 1500 metres.@en" .
+
+vntourism:Kon_Ka_Kinh_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Kon Ka Kinh National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "Tây Nguyên, Vietnam" ;
+        vntourism:hasDescription  "Kon Ka Kinh National Park (Vietnamese: Vườn quốc gia Kon Ka Kinh) is a national park of Vietnam, established by the decision (167/2002/QĐ-TTg) on November 25, 2002 of the then Prime Minister, Phan Văn Khải. Kon Ka Kinh National Park is a priority zone for the protection of biodiversity in Vietnam and the ASEAN. It is also a biological tourist site.@en" .
+
+vntourism:Cù_Lao_Ré_volcanic_islands
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Cù Lao Ré volcanic islands@en" ;
+        vntourism:hasAdministrativeDivision
+                "Northeast of Quang Ngai, Vietnam" ;
+        vntourism:hasDescription  "Cù-Lao Ré is a volcanic field northeast of Quảng Ngãi, Vietnam. The field consists of 13 volcanic cones; four subaerial and nine submarine. Three of the subaerial cones formed the Cù-Lao Ré Island, while the fourth one formed the Cù-Lao Bai Island. The islands form the Lý Sơn District of Quảng Ngãi Province.@en" .
+
+vntourism:Paracel_Islands
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Paracel Islands@en" ;
+        vntourism:hasAdministrativeDivision
+                "South_China_Sea" , "Pattle Island" ;
+        vntourism:hasDescription  "The Paracel Islands, also known as the Xisha Islands (simplified Chinese: 西沙群岛; traditional Chinese: 西沙群島; pinyin: xīshā qúndǎo; lit. 'West Sand Archipelago') and the Hoang Sa Archipelago (Vietnamese: Quần đảo Hoàng Sa, lit. 'Yellow Sand Archipelago'), are a disputed archipelago in the South China Sea.@en" .
+
+vntourism:Mũi_Cà_Mau_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Mũi Cà Mau National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "South Vietnam" ;
+        vntourism:hasDescription  "Mũi Cà Mau National Park (Vietnamese: Vườn quốc gia Mũi Cà Mau) or National Park of Cape Cà Mau is a national park in southern Vietnam. It is located in Đất Mũi Commune, Ngọc Hiển District, in Cà Mau, the southernmost of Vietnam's provinces. The park was established by Decision 142/2003/QĐ-TTg of the Prime Minister of Vietnam on July 14, 2003, on the basis of the natural preservation zone of Đất Mũi, a zone founded by Decision 194/CT, dated August 9, 1986.@en" .
+
+vntourism:Ba_Bể_Lake  a           vntourism:HeritageSite ;
+        rdfs:label                "Ba Bể Lake@en" ;
+        vntourism:hasAdministrativeDivision
+                "Bắc_Kạn_province" ;
+        vntourism:hasDescription  "Ba Bể Lake (Vietnamese: Hồ Ba Bể; Ba means Three, Bể is from the Tay language word pé, meaning \\\"lake\\\") is the largest natural lake in Vietnam. It is located in Nam Mẫu commune, Ba Bể district, Bắc Kạn Province in the Northeast region of the country. Ba Bể Lake is a featured geographical science and is a biodiversity reservoir. It is a part of the Ba Bể National Park. It is home to a range of animals and plants.@en" .
+
+vntourism:Bà_Lụa_Islands
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Bà Lụa Islands@en" ;
+        vntourism:hasAdministrativeDivision
+                "Gulf_of_Thailand" ;
+        vntourism:hasDescription  "Bà Lụa Islands (Vietnamese: Quần đảo Bà Lụa) is an archipelago located in the Gulf of Thailand. It constitutes Sơn Hải Commune of Kiên Lương District, Kiên Giang Province, Vietnam. The archipelago is known as \\\"(Small) Ha Long of the South\\\".@en" .
+
+vntourism:Hoàn_Kiếm_Lake
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Hoàn Kiếm Lake@en" ;
+        vntourism:hasAdministrativeDivision
+                "Hoàn_Kiếm_district" , "Hanoi" ;
+        vntourism:hasDescription  "Hoàn Kiếm Lake (Vietnamese: Hồ Hoàn Kiếm, Hán tự: 湖還劍, meaning \\\"Lake of the Returned Sword\\\" or \\\"Lake of the Restored Sword\\\"), also known as Sword Lake (Hồ Gươm) or Tả Vọng Lake (Hồ Tả Vọng), is a fresh water lake, measuring some 12 ha in the historical center of Hanoi, the capital city of Vietnam.@en" .
+
+vntourism:Thổ_Chu_Island
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Thổ Chu Island@en" ;
+        vntourism:hasAdministrativeDivision
+                "Gulf_of_Thailand" ;
+        vntourism:hasDescription  "Thổ Chu Island (Vietnamese: đảo Thổ Chu or đảo Thổ Châu) is the largest island of Thổ Chu Islands in the Gulf of Thailand. Here lies the administrative center of Thổ Châu Commune, Phú Quốc District, Kiên Giang Province, Vietnam. In the West, the island is also known as Poulo Panjang or Pulo Panjang.@en" .
+
+vntourism:Amboyna_Cay
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Amboyna Cay@en" ;
+        vntourism:hasAdministrativeDivision
+                "South_China_Sea" ;
+        vntourism:hasDescription  "Amboyna Cay, also known as Vietnamese: Đảo An Bang; Malay: Pulau Amboyna Kecil; Datu Kalantiaw Island (Tagalog: Pulo ng Datu Kalantiaw, lit. 'Island of Datu Kalantiaw'); Mandarin Chinese: 安波沙洲; pinyin: Ānbō Shāzhōu, and other names, is an island of the Spratly Islands group in the South China Sea located just outside (SW) of the southwest of Dangerous Ground. It is SW of , south of the London Reefs, and NW of Swallow Reef. The island is also claimed by China, Malaysia, the Philippines and Taiwan. \n* Amboyna Cay Lighthouse \n* View from Amboyna Cay \n* Vietnamese guards on Amboyna Cay@en" .
+
+vntourism:Bù_Gia_Mập_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Bù Gia Mập National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "" ;
+        vntourism:hasDescription  "Bù Gia Mập National Park (Vietnamese language: Vườn quốc gia Bù Gia Mập ) is a national park in the province of Bình Phước, Vietnam. The Bù Gia Mập National Park covers an area of 26,032 ha. The park has a 15,200 ha buffer zone area. Until 2002, the area was officially a conservation area, before the incumbent Prime Minister declared it a national park on November 27.@en" .
+
+vntourism:Spratly_Islands
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Spratly Islands@en" ;
+        vntourism:hasAdministrativeDivision
+                "South_China_Sea" ;
+        vntourism:hasDescription  "The Spratly Islands (Filipino: Kapuluan ng Kalayaan; Chinese: 南沙群島/南沙群岛; pinyin: Nánshā Qúndǎo; Malay: Kepulauan Spratly; Vietnamese: Quần đảo Trường Sa) are a disputed archipelago in the South China Sea. Composed of islands, islets, cays, and more than 100 reefs, sometimes grouped in submerged old atolls, the archipelago lies off the coasts of the Philippines, Malaysia, and southern Vietnam. Named after the 19th-century British whaling captain Richard Spratly who sighted Spratly Island in 1843, the islands contain less than 2 km2 (490 acres) of naturally occurring land area, which is spread over an area of more than 425,000 km2 (164,000 sq mi).@en" .
+
+vntourism:Trúc_Bạch_Lake
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Trúc Bạch Lake@en" ;
+        vntourism:hasAdministrativeDivision
+                "Hanoi" ;
+        vntourism:hasDescription  "Trúc Bạch Lake (Vietnamese: Hồ Trúc Bạch) is one of the many lakes in the city of Hanoi, the capital of Vietnam. It is known outside Vietnam as the site where future United States politician John McCain landed during the Vietnam War after being shot down.@en" .
+
+vntourism:Cát_Bà_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Cát Bà National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "Vietnam" ;
+        vntourism:hasDescription  "Cát Bà National Park is a World Heritage Site designated as a biosphere reserve in northern Vietnam. The park is part of Cát Bà Island in Hạ Long Bay and is administered by the city of Haiphong. The park is located approximately 30 kilometres (19 mi) east of Hai Phong, covering about 263 square kilometres (102 sq mi) and comprising 173 square kilometres (67 sq mi) of land and 90 square kilometres (35 sq mi) of inshore water.@en" .
+
+vntourism:Côn_Sơn_Island
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Côn Sơn Island@en" ;
+        vntourism:hasAdministrativeDivision
+                "Côn Sơn Island" ;
+        vntourism:hasDescription  "Côn Sơn, also known as Côn Lôn is the largest island of the Côn Đảo archipelago, off the coast of southern Vietnam.@en" .
+
+vntourism:Taiping_Island
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Taiping Island@en" ;
+        vntourism:hasAdministrativeDivision
+                "South_China_Sea" ;
+        vntourism:hasDescription  "Taiping Island, also known as Itu Aba, and also known by various other names, is the largest of the naturally occurring Spratly Islands in the South China Sea. The island is elliptical in shape being 1.4 kilometres (0.87 mi) in length and 0.4 kilometres (0.25 mi) in width, with an area of 46 hectares (110 acres). It is located on the northern edge of the Tizard Bank (Zheng He Reefs; 鄭和群礁). The runway of the Taiping Island Airport is easily the most prominent feature on the island, running its entire length.@en" .
+
+vntourism:U_Minh_Thượng_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "U Minh Thượng National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "miền Nam Việt Nam" ;
+        vntourism:hasDescription  "U Minh Thượng National Park or National Park of Upper U Minh (Vietnamese language: Vườn quốc gia U Minh Thượng) is a national park in the province of Kiên Giang, Vietnam.@en" .
+
+vntourism:Yên_Lập_Lake
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Yên Lập Lake@en" ;
+        vntourism:hasAdministrativeDivision
+                "Hoành_Bồ_district" ;
+        vntourism:hasDescription  "Yên Lập Lake (Vietnamese: Hồ Yên Lập) is a large artificial freshwater lake in Hoành Bồ District, Quảng Ninh Province, Vietnam. Work began creating the dam on and in 1978. It has a capacity of 128 million cubic metres. \n* v \n* t \n* e@en" .
+
+vntourism:Vũ_Quang_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Vũ Quang National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "North Central Coast" ;
+        vntourism:hasDescription  "Vũ Quang National Park is a national park in Vũ Quang District, Hà Tĩnh Province, North Central Coast, Vietnam. This park contains biodiversity. Saola and Giant muntjac are species found in this park. Vũ Quang is a remote forested region of Vietnam, in which several new species of deer and antelope have been discovered since the 1990s. Some are so new that scientific description is still pending, although most have local names. The area was declared a forest reserve in 1986 and a National Park in 2002. The National Park has an area of 212 square miles (550 Square kilometers).@en" .
+
+vntourism:Chư_Yang_Sin_National_Park
+        a                         vntourism:HeritageSite ;
+        rdfs:label                "Chư Yang Sin National Park@en" ;
+        vntourism:hasAdministrativeDivision
+                "Tây Nguyên, Việt Nam" ;
+        vntourism:hasDescription  "Chư Yang Sin National Park (Vietnamese language: Vườn quốc gia Chư Yang Sin) is a national park in the communes of: Yang Mao, , Cư Pui, Hoà Phong, Hoà Lễ, Hoà Sơn, Khuê Ngọc Điền in the county of Krông Bông and communes: Yang Cao, Bông Krang, Krông Nô, Đắk Phơi of county , Đắk Lắk Province, Tây Nguyên, Vietnam. The national park was established according to the Decision number 92/2002/QĐ-TTg dated 12 July 2002, signed by then Prime Minister of Vietnam Nguyễn Tấn Dũng, this decision turned Chư Yang Sin Nature Reserve into Chư Yang Sin National Park.@en" .
