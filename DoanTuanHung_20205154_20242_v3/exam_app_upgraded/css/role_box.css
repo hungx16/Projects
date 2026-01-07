@@ -1,0 +1,47 @@
+/* Styles for role selection */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0a4957;
+}
+
+.role-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.role-box h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.role-box button {
+  width: 100%;
+  background: #555;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.role-box button:hover {
+  opacity: 0.8;
+}
