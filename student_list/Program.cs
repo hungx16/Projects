@@ -1,0 +1,46 @@
+using AutoMapper;
+using Microsoft.EntityFrameworkCore;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// Add DbContext
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<student_list.Api.Data.StudentDbContext>(options =>
+    options.UseSqlServer(connectionString));
+
+// Add AutoMapper from Application assembly
+builder.Services.AddAutoMapper(typeof(student_list.Application.StudentProfile).Assembly);
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+
+// Minimal endpoint to create student
+app.MapPost("/students", async (student_list.Domain.Models.StudentModel model, student_list.Api.Data.StudentDbContext db, IMapper mapper) =>
+{
+    var entity = mapper.Map<student_list.Domain.Entities.Student>(model);
+    db.Students.Add(entity);
+    await db.SaveChangesAsync();
+    var created = mapper.Map<student_list.Domain.Models.StudentModel>(entity);
+    return Results.Created($"/students/{created.Id}", created);
+});
+
+var summaries = new[]
+{
+    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+};
+
+
+app.Run();
