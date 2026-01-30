@@ -1,5 +1,6 @@
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using student_list.Api.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,6 +34,8 @@ app.MapGet("/students", async (student_list.Api.Data.StudentDbContext db, IMappe
     var models = mapper.Map<List<student_list.Domain.Models.StudentModel>>(entities);
     return Results.Ok(models);
 });
+app.MapGet("/students/count", async (StudentDbContext db) =>
+    Results.Ok(await db.Students.CountAsync()));
 
 
 // Minimal endpoint to create student
@@ -44,6 +47,38 @@ app.MapPost("/students", async (student_list.Domain.Models.StudentModel model, s
     var created = mapper.Map<student_list.Domain.Models.StudentModel>(entity);
     return Results.Created($"/students/{created.Id}", created);
 });
+
+// update student by id
+app.MapPut("/students/{id:int}", async (int id, student_list.Domain.Models.StudentModel model, student_list.Api.Data.StudentDbContext db, IMapper mapper) =>
+{
+    var entity = await db.Students.FindAsync(id);
+    if (entity is null)
+    {
+        return Results.NotFound();
+    }
+
+    mapper.Map(model, entity);
+    entity.Id = id;
+
+    await db.SaveChangesAsync();
+    var updated = mapper.Map<student_list.Domain.Models.StudentModel>(entity);
+    return Results.Ok(updated);
+});
+
+// delete student by id
+app.MapDelete("/students/{id:int}", async (int id, student_list.Api.Data.StudentDbContext db) =>
+{
+    var entity = await db.Students.FindAsync(id);
+    if (entity is null)
+    {
+        return Results.NotFound();
+    }
+
+    db.Students.Remove(entity);
+    await db.SaveChangesAsync();
+    return Results.NoContent();
+});
+
 
 
 app.Run();
