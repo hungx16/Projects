@@ -26,6 +26,14 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+//select all students
+app.MapGet("/students", async (student_list.Api.Data.StudentDbContext db, IMapper mapper) =>
+{
+    var entities = await db.Students.AsNoTracking().ToListAsync();
+    var models = mapper.Map<List<student_list.Domain.Models.StudentModel>>(entities);
+    return Results.Ok(models);
+});
+
 
 // Minimal endpoint to create student
 app.MapPost("/students", async (student_list.Domain.Models.StudentModel model, student_list.Api.Data.StudentDbContext db, IMapper mapper) =>
@@ -36,11 +44,6 @@ app.MapPost("/students", async (student_list.Domain.Models.StudentModel model, s
     var created = mapper.Map<student_list.Domain.Models.StudentModel>(entity);
     return Results.Created($"/students/{created.Id}", created);
 });
-
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
 
 
 app.Run();
