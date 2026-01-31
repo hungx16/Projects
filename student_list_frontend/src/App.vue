@@ -18,7 +18,8 @@ const loadStudents = async () => {
   isLoading.value = true
   errorMessage.value = ''
   try {
-    const response = await fetch('https://localhost:7194/students')
+    const baseUrl = import.meta.env.VITE_API_BASE_URL ?? ''
+    const response = await fetch(`${baseUrl}/students`)
     if (!response.ok) {
       throw new Error(`Request failed: ${response.status}`)
     }
