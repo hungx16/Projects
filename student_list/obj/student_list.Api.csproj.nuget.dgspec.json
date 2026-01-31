@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Hung\\student_list\\student_list.Api.csproj": {}
+    "C:\\Hung\\git_repo\\Projects\\student_list\\student_list.Api.csproj": {}
   },
   "projects": {
-    "C:\\Hung\\student_list.Application\\student_list.Application.csproj": {
+    "C:\\Hung\\git_repo\\Projects\\student_list.Application\\student_list.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Hung\\student_list.Application\\student_list.Application.csproj",
+        "projectUniqueName": "C:\\Hung\\git_repo\\Projects\\student_list.Application\\student_list.Application.csproj",
         "projectName": "student_list.Application",
-        "projectPath": "C:\\Hung\\student_list.Application\\student_list.Application.csproj",
+        "projectPath": "C:\\Hung\\git_repo\\Projects\\student_list.Application\\student_list.Application.csproj",
         "packagesPath": "C:\\Users\\dthun\\.nuget\\packages\\",
-        "outputPath": "C:\\Hung\\student_list.Application\\obj\\",
+        "outputPath": "C:\\Hung\\git_repo\\Projects\\student_list.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Hung\\student_list.Domain\\student_list.Domain.csproj": {
-                "projectPath": "C:\\Hung\\student_list.Domain\\student_list.Domain.csproj"
+              "C:\\Hung\\git_repo\\Projects\\student_list.Domain\\student_list.Domain.csproj": {
+                "projectPath": "C:\\Hung\\git_repo\\Projects\\student_list.Domain\\student_list.Domain.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "C:\\Hung\\student_list.Domain\\student_list.Domain.csproj": {
+    "C:\\Hung\\git_repo\\Projects\\student_list.Domain\\student_list.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Hung\\student_list.Domain\\student_list.Domain.csproj",
+        "projectUniqueName": "C:\\Hung\\git_repo\\Projects\\student_list.Domain\\student_list.Domain.csproj",
         "projectName": "student_list.Domain",
-        "projectPath": "C:\\Hung\\student_list.Domain\\student_list.Domain.csproj",
+        "projectPath": "C:\\Hung\\git_repo\\Projects\\student_list.Domain\\student_list.Domain.csproj",
         "packagesPath": "C:\\Users\\dthun\\.nuget\\packages\\",
-        "outputPath": "C:\\Hung\\student_list.Domain\\obj\\",
+        "outputPath": "C:\\Hung\\git_repo\\Projects\\student_list.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -148,14 +148,14 @@
         }
       }
     },
-    "C:\\Hung\\student_list\\student_list.Api.csproj": {
+    "C:\\Hung\\git_repo\\Projects\\student_list\\student_list.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Hung\\student_list\\student_list.Api.csproj",
+        "projectUniqueName": "C:\\Hung\\git_repo\\Projects\\student_list\\student_list.Api.csproj",
         "projectName": "student_list.Api",
-        "projectPath": "C:\\Hung\\student_list\\student_list.Api.csproj",
+        "projectPath": "C:\\Hung\\git_repo\\Projects\\student_list\\student_list.Api.csproj",
         "packagesPath": "C:\\Users\\dthun\\.nuget\\packages\\",
-        "outputPath": "C:\\Hung\\student_list\\obj\\",
+        "outputPath": "C:\\Hung\\git_repo\\Projects\\student_list\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -176,11 +176,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Hung\\student_list.Application\\student_list.Application.csproj": {
-                "projectPath": "C:\\Hung\\student_list.Application\\student_list.Application.csproj"
+              "C:\\Hung\\git_repo\\Projects\\student_list.Application\\student_list.Application.csproj": {
+                "projectPath": "C:\\Hung\\git_repo\\Projects\\student_list.Application\\student_list.Application.csproj"
               },
-              "C:\\Hung\\student_list.Domain\\student_list.Domain.csproj": {
-                "projectPath": "C:\\Hung\\student_list.Domain\\student_list.Domain.csproj"
+              "C:\\Hung\\git_repo\\Projects\\student_list.Domain\\student_list.Domain.csproj": {
+                "projectPath": "C:\\Hung\\git_repo\\Projects\\student_list.Domain\\student_list.Domain.csproj"
               }
             }
           }

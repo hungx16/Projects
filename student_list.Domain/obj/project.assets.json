@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Hung\\student_list.Domain\\student_list.Domain.csproj",
+      "projectUniqueName": "C:\\Hung\\git_repo\\Projects\\student_list.Domain\\student_list.Domain.csproj",
       "projectName": "student_list.Domain",
-      "projectPath": "C:\\Hung\\student_list.Domain\\student_list.Domain.csproj",
+      "projectPath": "C:\\Hung\\git_repo\\Projects\\student_list.Domain\\student_list.Domain.csproj",
       "packagesPath": "C:\\Users\\dthun\\.nuget\\packages\\",
-      "outputPath": "C:\\Hung\\student_list.Domain\\obj\\",
+      "outputPath": "C:\\Hung\\git_repo\\Projects\\student_list.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
