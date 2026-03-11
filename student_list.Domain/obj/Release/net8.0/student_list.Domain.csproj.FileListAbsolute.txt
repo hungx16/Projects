@@ -1,0 +1,12 @@
+C:\Hung\git_repo\Projects\student_list.Domain\bin\Release\net8.0\student_list.Domain.deps.json
+C:\Hung\git_repo\Projects\student_list.Domain\bin\Release\net8.0\student_list.Domain.dll
+C:\Hung\git_repo\Projects\student_list.Domain\bin\Release\net8.0\student_list.Domain.pdb
+C:\Hung\git_repo\Projects\student_list.Domain\obj\Release\net8.0\student_list.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hung\git_repo\Projects\student_list.Domain\obj\Release\net8.0\student_list.Domain.AssemblyInfoInputs.cache
+C:\Hung\git_repo\Projects\student_list.Domain\obj\Release\net8.0\student_list.Domain.AssemblyInfo.cs
+C:\Hung\git_repo\Projects\student_list.Domain\obj\Release\net8.0\student_list.Domain.csproj.CoreCompileInputs.cache
+C:\Hung\git_repo\Projects\student_list.Domain\obj\Release\net8.0\student_list.Domain.sourcelink.json
+C:\Hung\git_repo\Projects\student_list.Domain\obj\Release\net8.0\student_list.Domain.dll
+C:\Hung\git_repo\Projects\student_list.Domain\obj\Release\net8.0\refint\student_list.Domain.dll
+C:\Hung\git_repo\Projects\student_list.Domain\obj\Release\net8.0\student_list.Domain.pdb
+C:\Hung\git_repo\Projects\student_list.Domain\obj\Release\net8.0\ref\student_list.Domain.dll

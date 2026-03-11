@@ -1,0 +1,16 @@
+C:\Hung\git_repo\Projects\student_list.Application\bin\Release\net8.0\student_list.Application.deps.json
+C:\Hung\git_repo\Projects\student_list.Application\bin\Release\net8.0\student_list.Application.dll
+C:\Hung\git_repo\Projects\student_list.Application\bin\Release\net8.0\student_list.Application.pdb
+C:\Hung\git_repo\Projects\student_list.Application\bin\Release\net8.0\student_list.Domain.dll
+C:\Hung\git_repo\Projects\student_list.Application\bin\Release\net8.0\student_list.Domain.pdb
+C:\Hung\git_repo\Projects\student_list.Application\obj\Release\net8.0\student_list.Application.csproj.AssemblyReference.cache
+C:\Hung\git_repo\Projects\student_list.Application\obj\Release\net8.0\student_list.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hung\git_repo\Projects\student_list.Application\obj\Release\net8.0\student_list.Application.AssemblyInfoInputs.cache
+C:\Hung\git_repo\Projects\student_list.Application\obj\Release\net8.0\student_list.Application.AssemblyInfo.cs
+C:\Hung\git_repo\Projects\student_list.Application\obj\Release\net8.0\student_list.Application.csproj.CoreCompileInputs.cache
+C:\Hung\git_repo\Projects\student_list.Application\obj\Release\net8.0\student_list.Application.sourcelink.json
+C:\Hung\git_repo\Projects\student_list.Application\obj\Release\net8.0\student_.B32B8736.Up2Date
+C:\Hung\git_repo\Projects\student_list.Application\obj\Release\net8.0\student_list.Application.dll
+C:\Hung\git_repo\Projects\student_list.Application\obj\Release\net8.0\refint\student_list.Application.dll
+C:\Hung\git_repo\Projects\student_list.Application\obj\Release\net8.0\student_list.Application.pdb
+C:\Hung\git_repo\Projects\student_list.Application\obj\Release\net8.0\ref\student_list.Application.dll
